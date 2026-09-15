@@ -1,0 +1,3 @@
+Hello HDFS!
+This file is stored in our simulated HDFS.
+Hadoop makes big data processing possible.
