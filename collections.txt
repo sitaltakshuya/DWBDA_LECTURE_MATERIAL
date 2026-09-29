@@ -1,0 +1,23 @@
+object CollectionsExample {
+  def main(args: Array[String]): Unit = {
+    
+    val numbers = List(1, 2, 3, 4, 5)
+
+    // Accessing elements in the List
+    println("First element: " + numbers.head) 
+    println("Last element: " + numbers.last)   
+
+    // Check if an element exists in the List
+    val containsThree = numbers.contains(3)
+    println("Contains 3: " + containsThree) 
+
+    // Map: Doubling each element in the List
+    val doubled = numbers.map(x => x * 2)
+    println("Doubled List: " + doubled) 
+
+    // Filter: Selecting even numbers
+    val evens = numbers.filter(x => x % 2 == 0)
+    println("Even numbers: " + evens) 
+
+  }
+}
